@@ -11,7 +11,7 @@ import java.util.Scanner;
  *		按每个组合的字典序排列输出,每行输出一种组合
  */
 
-public class Main2 {
+//public class Main2 {
 	static int n = 0;
 	static int m = 0;
 	public void comb(int a){
