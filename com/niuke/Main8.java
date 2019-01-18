@@ -11,7 +11,7 @@ import java.util.Scanner;
  *	输出描述:
  *		输出包括一行10个整数，即0~9这些数字在页码中出现的次数，以空格分隔。行末无空格。
  */
-//public class Main8 {
+public class Main8 {
 	
 	public static int getReapt(int num,int val){
 		int times = 0;

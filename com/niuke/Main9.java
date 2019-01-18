@@ -1,4 +1,4 @@
-package com.niuke;
+package niuke;
 
 /**
  * 
@@ -13,7 +13,7 @@ package com.niuke;
  *	输出描述:
  *		输出一个整数，表示最少需要的操作次数。如果不能完成，则输出-1
  */
-//public class Main9 {
+public class Main9 {
 
 	public static void main(String[] args) {
 		

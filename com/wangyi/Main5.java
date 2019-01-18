@@ -1,4 +1,4 @@
-package com.wangyi;
+package wangyi;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -17,7 +17,7 @@ import java.util.TreeSet;
  *	输出描述：
  *		输出一个整数，表示最少需要处理的时间
  */
-//public class Main5 {
+public class Main5 {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);

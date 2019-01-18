@@ -12,7 +12,7 @@ import java.util.ArrayList;
  *	输出描述：
  *		输出任务信息为：任务ID.任务运行时长；任务之间用 "|" 隔离； 如果无任务运行，则任务ID为0
  */
-//public class Main4 {
+public class Main4 {
 	
 	public static int getMaxPro(ArrayList<int[]> taskPool){
 		int maxNum = -1;
