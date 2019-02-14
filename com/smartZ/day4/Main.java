@@ -53,6 +53,21 @@ public class Main {
      * @return
      */
     public Node deleteDuplication(Node pHead) {
+        if (pHead == null  || pHead.next == null){
+            return pHead;
+        }
+        if (pHead.val == pHead.next.val){
+            Node pNext = pHead.next;
+            while(pNext!=null && pNext.val == pHead.val){
+                pNext = pNext.next;
+            }
+            return deleteDuplication(pNext);
+        }
+        else{
+            pHead.next = deleteDuplication(pHead.next);
+            return pHead;
+
+            }
 
         return null;
     }
