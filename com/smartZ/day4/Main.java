@@ -1,5 +1,8 @@
 package smartZ.day4;
 
+import java.util.ArrayList;
+import java.util.List;
+
 class Node {
     int val;
     Node next = null;
@@ -53,6 +56,8 @@ public class Main {
      * @return
      */
     public Node deleteDuplication(Node pHead) {
+
+        List<String> oo = new ArrayList<>();
         if (pHead == null  || pHead.next == null){
             return pHead;
         }
