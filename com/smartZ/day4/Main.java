@@ -82,7 +82,7 @@ public class Main {
     public RandomNode Clone(RandomNode pHead) {
 
 
-        return null;
+        return pHead;
     }
 
     public static void main(String[] args) {
