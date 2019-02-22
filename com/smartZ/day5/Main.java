@@ -8,7 +8,7 @@ public class Main {
      * @return
      */
     public int FirstNotRepeatingChar(String str) {
-
+        StringBuffer sb= new StringBuffer();
         return 0;
     }
 
