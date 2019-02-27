@@ -1,4 +1,4 @@
-package com.wangyi;
+package wangyi;
 
 import java.util.Scanner;
 
