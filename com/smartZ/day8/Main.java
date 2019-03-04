@@ -11,6 +11,11 @@ package smartZ.day8;
  *	输入包括一个长度为n且只报含 G和B的字符串  n不超过50
  *	输出最少多少次
  *
+ *  输入示例
+ *  GGBBG
+ *
+ *  输入出示例
+ *  2
  */
 public class Main {
 }
